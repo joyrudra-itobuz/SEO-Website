@@ -103,6 +103,11 @@ div ul li:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.perfect-solution .right-block {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
 
 .what-can-you-expect-container .col-10 {
   padding: 2rem;
@@ -129,7 +134,7 @@ div ul li:hover {
 }
 .why-you-should-choose-us-container-cards .col-10:hover {
   transition: 500ms;
-  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.7);
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
 }
 
 .you-make-ask-container p {
@@ -184,7 +189,7 @@ div ul li:hover {
 .our-plans-container p {
   font-weight: 200;
 }
-.our-plans-container-plans-cards{
+.our-plans-container-plans-cards {
   background-color: white;
   padding: 4rem 1rem;
 }
@@ -208,26 +213,26 @@ div ul li:hover {
   font-size: 12px;
 }
 
-.our-expert-team-members p{
+.our-expert-team-members p {
   font-weight: 200;
   /* text-align: center; */
 }
 
-.our-expert-team-members .member-profiles{
+.our-expert-team-members .member-profiles {
   padding: 3rem 2rem;
   margin: 0 5rem;
 }
 
-.our-expert-team-members .member-profiles:hover{
+.our-expert-team-members .member-profiles:hover {
   transition: 400ms;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
 }
 
-.our-expert-team-members .member-profiles button:hover{
+.our-expert-team-members .member-profiles button:hover {
   color: blue;
 }
 
-.client-review-container p{
+.client-review-container p {
   font-weight: 200;
 }
 .client-review-container-cards .flex-column {
