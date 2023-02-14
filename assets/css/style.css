@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 500;
+}
+
+div ul li:hover {
+  border-bottom: 4px solid blue;
+}
+
+.hero-heading {
+  font: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.hero-description {
+  font-weight: 100;
+}
+
+.green-youtube-button {
+  border: none;
+  background: transparent;
+}
+
+.hero-women {
+  background-image: url("../images/hero-women-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-media-management h2 {
+  padding-top: 1rem;
+  font-weight: 200;
+  line-height: 3rem;
+}
+.social-media-management .service-cards-descriptions {
+  font-weight: 200;
+}
+.social-media-management button {
+  border: none;
+  background: transparent;
+}
+.social-media-management {
+  box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.09);
+  border-radius: 5px;
+  padding: 2rem;
+}
+.procedure-container {
+  background-image: url("../images/Ellipse 28.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+}
+.procedure-container h1 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.procedure-container p {
+  margin-top: 2rem;
+  font-weight: 200;
+}
+.procedure-container {
+  /* box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07); */
+  border-radius: 5px;
+}
+.procedure-1 {
+  background-image: url("../images/1.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-2 {
+  background-image: url("../images/2.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-3 {
+  background-image: url("../images/3.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-4 {
+  background-image: url("../images/4.svg");
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+.procedure-container .procedure:hover {
+  border-bottom: 5px solid blue;
+  box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.09);
+  transition: 400ms;
+}
+
+.perfect-solution .left-block p {
+  font-weight: 200;
+  padding: 2rem;
+}
+.perfect-solution {
+  padding-top: 2rem;
+  background-color: #fafafa;
+  background-image: url("../images/Vector 18.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.what-can-you-expect-container .col-10 {
+  padding: 2rem;
+}
+.what-can-you-expect-container .col-10 p {
+  font-weight: 200;
+}
+.what-can-you-expect-container .col-10 h1 {
+  font-size: large;
+}
+.what-can-you-expect-container .col-10:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+
+.why-you-should-choose-us-container {
+  background-color: #fafafa;
+}
+.why-you-should-choose-us-container p {
+  font-weight: 200;
+}
+.why-you-should-choose-us-container-cards .col-10 {
+  padding: 3rem 2rem;
+  background-color: white;
+}
+.why-you-should-choose-us-container-cards .col-10:hover {
+  transition: 500ms;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.7);
+}
+
+.you-make-ask-container p {
+  font-weight: 200;
+}
+
+.you-make-ask-cards {
+  padding: 1rem 1rem;
+}
+
+.you-make-ask-cards:hover {
+  transition: 400ms;
+  box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+  border-radius: 4px;
+}
+
+.milesstone-container .row div {
+  text-align: center;
+}
+.milesstone-container .row div p {
+  color: #666565;
+  font-weight: 400;
+}
+.milesstone-container .row div h2 {
+  padding-bottom: 2rem;
+}
+.milesstone-container .row div h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #666565;
+}
+
+.check-your-website-speed-container p {
+  font-weight: 200;
+}
+.check-your-website-speed-container h1 {
+  text-align: center;
+}
+.check-your-website-speed-container-input {
+  padding-left: 1rem;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+::placeholder {
+  padding-left: 1rem;
+}
+
+.our-plans-container {
+  background-color: #fafafa;
+}
+.our-plans-container p {
+  font-weight: 200;
+}
+.our-plans-container-plans-cards{
+  background-color: white;
+  padding: 4rem 1rem;
+}
+.our-plans-container-plans h6 {
+  color: blue;
+}
+.our-plans-container-plans-cards:hover {
+  transform: scale(1.1);
+  background-image: url("../images/our plans hover bg.svg");
+  color: white;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 700ms;
+  box-shadow: 0px 26px 42px rgba(2, 22, 5, 0.08);
+  border-radius: 4px;
+}
+.our-plans-container-plans sup {
+  font-weight: 200;
+}
+.our-plans-container-plans sub {
+  font-size: 12px;
+}
+
+.our-expert-team-members p{
+  font-weight: 200;
+  /* text-align: center; */
+}
+
+.our-expert-team-members .member-profiles{
+  padding: 3rem 2rem;
+  margin: 0 5rem;
+}
+
+.our-expert-team-members .member-profiles:hover{
+  transition: 400ms;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
+}
+
+.our-expert-team-members .member-profiles button:hover{
+  color: blue;
+}
+
+.client-review-container p{
+  font-weight: 200;
+}
+.client-review-container-cards .flex-column {
+  background-image: url("../images/“.svg");
+  background-repeat: no-repeat;
+}
