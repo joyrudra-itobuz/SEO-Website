@@ -7,7 +7,7 @@
   font-weight: 500;
 }
 
-div ul li:hover {
+nav div ul li:hover {
   border-bottom: 4px solid blue;
 }
 
@@ -17,7 +17,7 @@ div ul li:hover {
 }
 
 .hero-description {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .green-youtube-button {
@@ -27,6 +27,7 @@ div ul li:hover {
 
 .hero-women {
   background-image: url("../images/hero-women-background.png");
+  background-position: 40%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -43,6 +44,9 @@ div ul li:hover {
   border: none;
   background: transparent;
 }
+/* .social-media-management img {
+  width: 75%;
+} */
 .social-media-management {
   box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.09);
   border-radius: 5px;
@@ -52,18 +56,18 @@ div ul li:hover {
   background-image: url("../images/Ellipse 28.svg");
   background-repeat: no-repeat;
   background-position-y: bottom;
+  background-position-x: right;
   background-size: contain;
 }
 .procedure-container h1 {
   font-weight: 600;
   font-size: 2.2rem;
 }
-.procedure-container p {
+.optimizing-your-website .row p {
   margin-top: 2rem;
   font-weight: 200;
 }
 .procedure-container {
-  /* box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07); */
   border-radius: 5px;
 }
 .procedure-1 {
@@ -88,6 +92,8 @@ div ul li:hover {
 }
 .procedure-container .procedure:hover {
   border-bottom: 5px solid blue;
+  background-color: white;
+
   box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.09);
   transition: 400ms;
 }
@@ -132,9 +138,10 @@ div ul li:hover {
   padding: 3rem 2rem;
   background-color: white;
 }
+
 .why-you-should-choose-us-container-cards .col-10:hover {
   transition: 500ms;
-  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
 .you-make-ask-container p {
@@ -166,6 +173,11 @@ div ul li:hover {
   font-size: 3rem;
   color: #666565;
 }
+.milesstone-container-flex p,
+.milesstone-container-flex h1,
+.milesstone-container-flex h2 {
+  text-align: center;
+}
 
 .check-your-website-speed-container p {
   font-weight: 200;
@@ -188,6 +200,7 @@ div ul li:hover {
 }
 .our-plans-container p {
   font-weight: 200;
+  text-align: center;
 }
 .our-plans-container-plans-cards {
   background-color: white;
@@ -220,14 +233,17 @@ div ul li:hover {
 
 .our-expert-team-members .member-profiles {
   padding: 3rem 2rem;
-  margin: 0 5rem;
+  margin: 0 2rem;
 }
 
 .our-expert-team-members .member-profiles:hover {
   transition: 400ms;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
 }
-
+.member-profiles h4:hover,
+.member-profiles p:hover {
+  color: blue;
+}
 .our-expert-team-members .member-profiles button:hover {
   color: blue;
 }
@@ -238,4 +254,21 @@ div ul li:hover {
 .client-review-container-cards .flex-column {
   background-image: url("../images/“.svg");
   background-repeat: no-repeat;
+}
+
+footer .row span {
+  font-size: 4rem;
+  color: red;
+}
+footer a {
+  color: black;
+  font-weight: 400;
+}
+footer p {
+  font-weight: 200;
+}
+footer .justify-content-between {
+  padding: 0 2rem;
+  margin-top: 1rem;
+  font-size: 10px;
 }
