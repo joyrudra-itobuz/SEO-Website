@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,7 +24,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/carousel.css" />
+    <title>SEO Website</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -67,7 +69,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2"
+              class="form-control me-2 border-3 border-warning"
               type="search"
               placeholder="Let's Talk"
               aria-label="Search"
@@ -84,8 +86,8 @@
     </nav>
 
     <section class="container hero mt-3">
-      <div class="row d-flex">
-        <div class="col-12 col-lg-6 mt-1 pt-1 mt-sm-5 pt-sm-5">
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-sm-6 mt-1 pt-1 mt-sm-5 pt-sm-5">
           <h1 class="hero-heading">
             Increase your web traffic with our
             <img src="./assets/images/expert.svg" alt="" />
@@ -109,8 +111,13 @@
         </div>
 
         <div
-          class="hero-women col-lg-6 col-12 d-flex justify-content-center mt-1 pt-1 mt-sm-5 pt-sm-5"
+          class="hero-women col-sm-6 col-12 d-flex justify-content-center mt-1 pt-1 mt-sm-5 pt-sm-5"
         >
+          <!-- <img class="facebook" src="./assets/images/facebook.svg" alt="" />
+          <img class="instagram" src="./assets/images/instagram.svg" alt="" />
+          <img class="twitter" src="./assets/images/twitter.svg" alt="" /> -->
+          <!-- <img src="./assets/images/our creative team.png" alt="" /> -->
+
           <img
             class="w-50"
             src="./assets/images/horizontal-portrait-affable-woman-casual-clothes-sitting-lotus-pose-floor-pointing-finger-aside-isolated-white-wall 1.svg"
@@ -710,7 +717,9 @@
           <p>Business & Finance Analysing</p>
           <p>24 Hour Support</p>
           <p>Customer Management</p>
-          <button class="btn btn-outline-dark">Get Started</button>
+          <button class="btn btn-outline-warning btn-dark text-white">
+            Get Started
+          </button>
         </div>
 
         <div
@@ -724,7 +733,9 @@
           <p>Business & Finance Analysing</p>
           <p>24 Hour Support</p>
           <p>Customer Management</p>
-          <button class="btn btn-outline-dark">Get Started</button>
+          <button class="btn btn-outline-warning btn-dark text-white">
+            Get Started
+          </button>
         </div>
 
         <div
@@ -738,7 +749,9 @@
           <p>Business & Finance Analysing</p>
           <p>24 Hour Support</p>
           <p>Customer Management</p>
-          <button class="btn btn-outline-dark">Get Started</button>
+          <button class="btn btn-outline-warning btn-dark text-white">
+            Get Started
+          </button>
         </div>
       </div>
     </section>
@@ -765,14 +778,14 @@
           <img src="./assets/images/Ellipse 403.svg" alt="" />
           <h4>Muriel Whee</h4>
           <p>Marketting Manager</p>
-          <div class="icons">
+          <div class="icons d-flex">
             <button class="btn"><i class="fa-brands fa-google"></i></button>
             <button class="btn">
               <i class="fa-brands fa-instagram"></i>
             </button>
             <button class="btn"><i class="fa-brands fa-twitter"></i></button>
             <button class="btn">
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
             </button>
           </div>
         </div>
@@ -783,14 +796,14 @@
           <img src="./assets/images/Ellipse 404.svg" alt="" />
           <h4>John Doe</h4>
           <p>Marketting Manager</p>
-          <div class="icons">
+          <div class="icons d-flex">
             <button class="btn"><i class="fa-brands fa-google"></i></button>
             <button class="btn">
               <i class="fa-brands fa-instagram"></i>
             </button>
             <button class="btn"><i class="fa-brands fa-twitter"></i></button>
             <button class="btn">
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
             </button>
           </div>
         </div>
@@ -801,14 +814,14 @@
           <img src="./assets/images/Ellipse 405.svg" alt="" />
           <h4>Clay Porter</h4>
           <p>Marketting Manager</p>
-          <div class="icons">
+          <div class="icons d-flex">
             <button class="btn"><i class="fa-brands fa-google"></i></button>
             <button class="btn">
               <i class="fa-brands fa-instagram"></i>
             </button>
             <button class="btn"><i class="fa-brands fa-twitter"></i></button>
             <button class="btn">
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
             </button>
           </div>
         </div>
@@ -819,14 +832,18 @@
           <img src="./assets/images/Ellipse 406.svg" alt="" />
           <h4>Doug Norm</h4>
           <p>Marketting Manager</p>
-          <div class="icons">
-            <button class="btn"><i class="fa-brands fa-google"></i></button>
+          <div class="icons d-flex">
+            <button class="btn">
+              <i class="fa-brands fa-google"></i>
+            </button>
             <button class="btn">
               <i class="fa-brands fa-instagram"></i>
             </button>
-            <button class="btn"><i class="fa-brands fa-twitter"></i></button>
             <button class="btn">
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="btn">
+              <i class="fa-brands fa-facebook"></i>
             </button>
           </div>
         </div>
@@ -875,9 +892,7 @@
       </div>
     </section>
 
-    <section
-      class="container subscribe mt-5 mb-5 pt-5 pb-5 bg-dark bg-opacity-10"
-    >
+    <section class="container subscribe mt-5 mb-5 pt-5 pb-5">
       <div class="row">
         <div>
           <h1 class="text-center">Subscribe & find the perfect Cosmetics</h1>

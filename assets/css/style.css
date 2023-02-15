@@ -19,7 +19,24 @@ nav div ul li:hover {
 .hero-description {
   font-weight: 200;
 }
-
+.hero .hero-women {
+  position: relative;
+}
+.hero-women .facebook {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+.hero-women .instagram {
+  position: absolute;
+  top: 90px;
+  left: 200px;
+}
+.hero-women .twitter {
+  position: absolute;
+  top: 200px;
+  left: 32px;
+}
 .green-youtube-button {
   border: none;
   background: transparent;
@@ -256,6 +273,9 @@ nav div ul li:hover {
   background-repeat: no-repeat;
 }
 
+.subscribe {
+  background-color: #fafafa;
+}
 footer .row span {
   font-size: 4rem;
   color: red;
