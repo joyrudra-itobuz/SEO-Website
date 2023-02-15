@@ -6,16 +6,15 @@
 
   font-weight: 500;
 }
-
+/* NAV section */
 nav div ul li:hover {
   border-bottom: 4px solid blue;
 }
-
+/* HERO SECTION  */
 .hero-heading {
   font: "Inter", sans-serif;
   font-weight: 700;
 }
-
 .hero-description {
   font-weight: 200;
 }
@@ -41,7 +40,6 @@ nav div ul li:hover {
   border: none;
   background: transparent;
 }
-
 .hero-women {
   background-image: url("../images/hero-women-background.png");
   background-position: 40%;
@@ -49,6 +47,7 @@ nav div ul li:hover {
   background-size: contain;
 }
 
+/* SERVICE CARDS section */
 .social-media-management h2 {
   padding-top: 1rem;
   font-weight: 200;
@@ -61,14 +60,13 @@ nav div ul li:hover {
   border: none;
   background: transparent;
 }
-/* .social-media-management img {
-  width: 75%;
-} */
 .social-media-management {
   box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.09);
   border-radius: 5px;
   padding: 2rem;
 }
+
+/* OUR PROCEDURE  */
 .procedure-container {
   background-image: url("../images/Ellipse 28.svg");
   background-repeat: no-repeat;
@@ -115,6 +113,7 @@ nav div ul li:hover {
   transition: 400ms;
 }
 
+/* PERCEFT SOLUTION  */
 .perfect-solution .left-block p {
   font-weight: 200;
   padding: 2rem;
@@ -132,6 +131,7 @@ nav div ul li:hover {
   justify-content: center;
 }
 
+/* WHAT CAN YOU EXPECT HERE  */
 .what-can-you-expect-container .col-10 {
   padding: 2rem;
 }
@@ -145,6 +145,7 @@ nav div ul li:hover {
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
+/* WHY SHOULD YOU CHOOSE US  */
 .why-you-should-choose-us-container {
   background-color: #fafafa;
 }
@@ -155,26 +156,25 @@ nav div ul li:hover {
   padding: 3rem 2rem;
   background-color: white;
 }
-
 .why-you-should-choose-us-container-cards .col-10:hover {
   transition: 500ms;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
+/* YOU MAY ASK  */
 .you-make-ask-container p {
   font-weight: 200;
 }
-
 .you-make-ask-cards {
   padding: 1rem 1rem;
 }
-
 .you-make-ask-cards:hover {
   transition: 400ms;
   box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
   border-radius: 4px;
 }
 
+/* OUR MILESTONES */
 .milesstone-container .row div {
   text-align: center;
 }
@@ -196,6 +196,7 @@ nav div ul li:hover {
   text-align: center;
 }
 
+/* CHECK WEBSITE SPEED  */
 .check-your-website-speed-container p {
   font-weight: 200;
 }
@@ -207,11 +208,11 @@ nav div ul li:hover {
   border: none;
   background-color: #f2f2f2;
 }
-
 ::placeholder {
   padding-left: 1rem;
 }
 
+/* OUR PLANS  */
 .our-plans-container {
   background-color: #fafafa;
 }
@@ -243,16 +244,15 @@ nav div ul li:hover {
   font-size: 12px;
 }
 
+/* OUR TEAM MEMBERS  */
 .our-expert-team-members p {
   font-weight: 200;
   /* text-align: center; */
 }
-
 .our-expert-team-members .member-profiles {
   padding: 3rem 2rem;
   margin: 0 2rem;
 }
-
 .our-expert-team-members .member-profiles:hover {
   transition: 400ms;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.2);
@@ -265,6 +265,7 @@ nav div ul li:hover {
   color: blue;
 }
 
+/* CLIENT REVIEWS  */
 .client-review-container p {
   font-weight: 200;
 }
@@ -273,9 +274,12 @@ nav div ul li:hover {
   background-repeat: no-repeat;
 }
 
+/* SUBSCRIBE  */
 .subscribe {
   background-color: #fafafa;
 }
+
+/* FOOTER  */
 footer .row span {
   font-size: 4rem;
   color: red;
