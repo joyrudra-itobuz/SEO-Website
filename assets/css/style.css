@@ -6,6 +6,7 @@
 
   font-weight: 500;
 }
+
 /* NAV section */
 nav div ul li:hover {
   border-bottom: 4px solid blue;
@@ -218,6 +219,21 @@ nav div ul li:hover {
 ::placeholder {
   padding-left: 1rem;
 }
+.validate-web-response-box {
+  background: rgb(0, 77, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 77, 121, 1) 0%,
+    rgba(0, 170, 170, 1) 100%
+  );
+  padding: 0rem 2rem;
+  color: white;
+  border-radius: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
 
 /* OUR PLANS  */
 .our-plans-container {
@@ -288,14 +304,21 @@ nav div ul li:hover {
 }
 .subcribe-response-area {
   font-weight: 400;
-  color: white;
-  background-color: rgb(0, 90, 0);
-  text-shadow: 0.1em 0.1em 0 hsl(200 50% 30%);
+  color: rgb(255, 255, 255);
+  background: rgb(0, 121, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 121, 92, 1) 0%,
+    rgba(0, 170, 104, 1) 100%
+  );
+
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 2rem;
 }
 .subcribe-response-area:hover {
   transform: scale(1.2);
   transition: 1000ms;
-  text-shadow: 0.2em 0.2em 0.2 hsl(200 50% 30%);
 }
 
 /* FOOTER  */

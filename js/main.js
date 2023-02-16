@@ -36,7 +36,7 @@ const isValidWeb = () => {
   setTimeout(function () {
     let responseArea = document.querySelector(".validate-web-response-box");
     responseArea.innerHTML = "";
-  }, 2000);
+  }, 5000);
   email.value = "";
   url.value = "";
 };
