@@ -94,7 +94,7 @@
         <div class="col-12 col-sm-6 mt-1 pt-1 mt-sm-5 pt-sm-5">
           <h1 class="hero-heading">
             Increase your web traffic with our
-            <img src="./assets/images/expert.svg" alt="" />
+            <img class="hero-expert" src="./assets/images/expert.svg" alt="" />
           </h1>
           <p class="hero-description">
             It is a long established fact that a reader will be distracted by
@@ -699,12 +699,18 @@
             />
 
             <input
-              class="check-your-website-speed-container-input"
+              class="check-your-website-speed-container-input check-your-website-speed-container-input-right"
               type="text"
               placeholder="Email Address"
             />
-            <button class="btn btn-warning ms-4">Submit</button>
+            <button class="btn btn-warning ms-4" onclick="isValidWeb()">
+              Submit
+            </button>
           </div>
+          <div
+            class="validate-web-response-box text-center mt-5"
+            style="font-weight: 200; transition: 400ms"
+          ></div>
         </div>
         <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
           <img
@@ -933,9 +939,31 @@
         <div
           class="d-flex justify-content-center gap-3 col-8 offset-2 flex-wrap"
         >
-          <input type="text" name="" id="" placeholder="Name" />
-          <input type="text" name="" id="" placeholder="Email Address" />
-          <button class="btn btn-primary">Subscribe</button>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Name"
+            class="subscriber-name"
+            pattern="[a-zA-Z]{5,}"
+            title="Minimum 5 letters"
+            required
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Email Address"
+            class="subscriber-email"
+          />
+          <button class="btn btn-primary" onclick="subscribeDetailsValidate()">
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center mt-5 d-flex justify-content-center flex-wrap">
+          <div class="subcribe-response-area ps-3 pe-3"></div>
         </div>
       </div>
     </section>

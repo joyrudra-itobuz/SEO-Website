@@ -14,6 +14,13 @@ nav div ul li:hover {
 .hero-heading {
   font: "Inter", sans-serif;
   font-weight: 700;
+  background-image: url("../images/Ellipse\ 21.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+}
+.hero-expert {
+  width: 25%;
 }
 .hero-description {
   font-weight: 200;
@@ -230,6 +237,7 @@ nav div ul li:hover {
 .our-plans-container-plans-cards:hover {
   transform: scale(1.1);
   background-image: url("../images/our plans hover bg.svg");
+  background-color: #6f77f1;
   color: white;
   background-size: cover;
   border-radius: 10px;
@@ -277,6 +285,17 @@ nav div ul li:hover {
 /* SUBSCRIBE  */
 .subscribe {
   background-color: #fafafa;
+}
+.subcribe-response-area {
+  font-weight: 400;
+  color: white;
+  background-color: rgb(0, 90, 0);
+  text-shadow: 0.1em 0.1em 0 hsl(200 50% 30%);
+}
+.subcribe-response-area:hover {
+  transform: scale(1.2);
+  transition: 1000ms;
+  text-shadow: 0.2em 0.2em 0.2 hsl(200 50% 30%);
 }
 
 /* FOOTER  */
