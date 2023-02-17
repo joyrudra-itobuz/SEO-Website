@@ -110,7 +110,7 @@ img {
 @media (min-width: 700px) {
   .service-cards-container img {
     /* width: 30%; */
-    width: 100%;
+    width: 30%;
   }
 }
 /* OUR PROCEDURE */
