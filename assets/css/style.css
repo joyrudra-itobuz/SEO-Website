@@ -6,6 +6,15 @@
   font-weight: 500;
 }
 
+.btn-warning:hover {
+  background: rgb(0, 255, 164);
+  background: linear-gradient(90deg, rgb(0, 51, 190) 0%, rgb(0, 180, 57) 100%);
+  color: white;
+  border: 1px solid green;
+}
+a:hover {
+  color: red;
+}
 img {
   max-width: 90%;
 }
@@ -95,8 +104,16 @@ img {
   border-radius: 5px;
   padding: 2rem;
 }
-
-/* OUR PROCEDURE  */
+.service-cards-container img {
+  width: 40%;
+}
+@media (min-width: 700px) {
+  .service-cards-container img {
+    /* width: 30%; */
+    width: 100%;
+  }
+}
+/* OUR PROCEDURE */
 .procedure-container {
   background-image: url("../images/Ellipse 28.svg");
   background-repeat: no-repeat;
