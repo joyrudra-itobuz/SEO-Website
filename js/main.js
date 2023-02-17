@@ -65,3 +65,14 @@ const subscribeDetailsValidate = () => {
   subscriberEmail.value = "";
   subscriberName.value = "";
 };
+
+// SWIPPER CODE
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 70,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

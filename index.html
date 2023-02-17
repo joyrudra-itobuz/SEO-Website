@@ -23,6 +23,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/carousel.css" />
     <title>SEO Website</title>
@@ -31,7 +36,7 @@
     <!-- NAVBAR HERE  -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container mt-3 mb-3">
+      <div class="container mt-2 mt-sm-3 mb-3">
         <a class="navbar-brand me-5" href="#"
           >novosa
           <i
@@ -56,17 +61,17 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item navbar-item">
               <a class="nav-link" aria-current="page" href="">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Projects</a>
+            <li class="nav-item navbar-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+            <li class="nav-item navbar-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+            <li class="nav-item navbar-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -89,7 +94,7 @@
 
     <!-- HERO  -->
 
-    <section class="container hero mt-3">
+    <section class="container hero mt-2 mt-sm-3">
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-sm-6 mt-1 pt-1 mt-sm-5 pt-sm-5">
           <h1 class="hero-heading">
@@ -103,14 +108,13 @@
             content of a is simply. It is a long established fact that a reader
             will be distracted.
           </p>
-          <div class="d-flex justify-content-between">
-            <button class="btn btn-warning">Get Started</button>
-            <div class="d-flex">
-              <button class="green-youtube-button">
-                <i class="fa-brands fa-youtube text-success fs-1"></i>
-              </button>
-              <p class="pt-2">Take a tour</p>
+          <div class="d-flex justify-content-between justify-content-sm-start">
+            <div class="get-started-btn">
+              <button class="btn btn-warning">Get Started</button>
             </div>
+            <button class="d-flex btn">
+              <img src="./assets/images/Take a tour.svg" alt="" />
+            </button>
           </div>
         </div>
 
@@ -134,10 +138,15 @@
 
     <section class="service-cards-container container-fluid">
       <div class="row d-flex gap-5">
-        <div class="social-media-management col-10 offset-1 col-md-3 col-sm-3">
-          <div class="d-flex gap-3 flex-wrap">
+        <div
+          class="social-media-management col-10 offset-1 col-md-3 col-sm-3 d-flex flex-column align-items-center align-items-sm-start"
+        >
+          <div class="d-flex gap-2 flex-wrap">
             <img src="./assets/images/social media management.svg" alt="" />
-            <h2 class="service-cards-heading" style="font-weight: 300">
+            <h2
+              class="service-cards-heading text-wrap"
+              style="font-weight: 300"
+            >
               Social Media<br />
               Management
             </h2>
@@ -154,11 +163,14 @@
         </div>
 
         <div
-          class="social-media-management col-10 offset-1 col-md-3 offset-md-0 col-sm-3 offset-sm-0"
+          class="social-media-management col-10 offset-1 col-md-3 offset-md-0 col-sm-3 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
-          <div class="d-flex gap-3 flex-wrap">
+          <div class="d-flex gap-2 flex-wrap">
             <img src="./assets/images/email marketting.svg" alt="" />
-            <h2 class="service-cards-heading" style="font-weight: 300">
+            <h2
+              class="service-cards-heading text-wrap"
+              style="font-weight: 300"
+            >
               Email<br />
               Marketting
             </h2>
@@ -175,11 +187,14 @@
         </div>
 
         <div
-          class="social-media-management col-10 offset-1 col-md-3 offset-md-0 col-sm-3 offset-sm-0"
+          class="social-media-management col-10 offset-1 col-md-3 offset-md-0 col-sm-3 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
-          <div class="d-flex gap-3 flex-wrap">
+          <div class="d-flex gap-2 flex-wrap">
             <img src="./assets/images/seo management.svg" alt="" />
-            <h2 class="service-cards-heading" style="font-weight: 300">
+            <h2
+              class="service-cards-heading text-wrap"
+              style="font-weight: 300"
+            >
               SEO<br />
               Management
             </h2>
@@ -213,7 +228,7 @@
         class="row procedure-container d-flex justify-content-center col-12 col-sm-12 col-md-12"
       >
         <div
-          class="procedure-1 procedure offset-1 col-10 mt-5 p-5 col-md-3 col-md-3 offset-md-0 offset-sm-0"
+          class="procedure-1 procedure offset-1 col-10 mt-5 p-sm-5 col-md-3 col-md-3 offset-md-0 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
           <svg
             class=""
@@ -244,7 +259,7 @@
         </div>
 
         <div
-          class="procedure-2 procedure offset-1 col-10 mt-5 p-5 col-md-3 col-md-3 offset-md-0 offset-sm-0"
+          class="procedure-2 procedure offset-1 col-10 mt-5 p-sm-5 col-md-3 col-md-3 offset-md-0 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
           <svg
             width="87"
@@ -278,7 +293,7 @@
         </div>
 
         <div
-          class="procedure-3 procedure offset-1 col-10 mt-5 p-5 col-md-3 col-md-3 offset-md-0 offset-sm-0"
+          class="procedure-3 procedure offset-1 col-10 mt-5 p-sm-5 col-md-3 col-md-3 offset-md-0 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
           <svg
             width="87"
@@ -304,7 +319,7 @@
         </div>
 
         <div
-          class="procedure-4 procedure offset-1 col-10 mt-5 p-5 col-md-3 col-md-3 col-sm-0 offset-sm-0"
+          class="procedure-4 procedure offset-1 col-10 mt-5 p-sm-5 col-md-3 col-md-3 col-sm-0 offset-sm-0 d-flex flex-column align-items-center align-items-sm-start"
         >
           <svg
             width="87"
@@ -362,9 +377,11 @@
 
     <section class="container mt-5 p-4 what-can-you-expect">
       <div
-        class="row what-can-you-expect-container d-flex justify-content-center"
+        class="row what-can-you-expect-container d-flex justify-content-center gap-3"
       >
-        <div class="col-10 offset-1 col-sm-3 offset-sm-0 mt-5">
+        <div
+          class="col-10 col-sm-3 offset-sm-0 mt-0 mt-sm-5 d-flex flex-column align-items-center align-items-sm-start"
+        >
           <svg
             width="71"
             height="71"
@@ -381,14 +398,18 @@
               stroke-linejoin="round"
             />
           </svg>
-          <h1 class="mt-5 mb-3">Grow Your Business</h1>
-          <p>
+          <h1 class="mt-sm-5 mb-sm-3 mt-3 text-sm-start text-center">
+            Grow Your Business
+          </h1>
+          <p class="text-center text-sm-start">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p><a href="#">Read More...</a></p>
         </div>
 
-        <div class="col-10 offset-1 mt-5 col-sm-3 col-offset-0">
+        <div
+          class="col-10 mt-0 mt-sm-5 col-sm-3 col-offset-0 d-flex flex-column align-items-center align-items-sm-start"
+        >
           <svg
             width="71"
             height="71"
@@ -405,14 +426,18 @@
             />
           </svg>
 
-          <h1 class="mt-5 mb-3">Get Quality Leads</h1>
-          <p>
+          <h1 class="mt-sm-5 mb-sm-3 mt-3 text-sm-start text-center">
+            Get Quality Leads
+          </h1>
+          <p class="text-center text-sm-start">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p><a href="#">Read More...</a></p>
         </div>
 
-        <div class="col-10 offset-1 mt-5 col-sm-3 col-offset-0">
+        <div
+          class="col-10 mt-0 mt-sm-5 col-sm-3 col-offset-0 d-flex flex-column align-items-center align-items-sm-start"
+        >
           <svg
             width="71"
             height="71"
@@ -430,8 +455,10 @@
             />
           </svg>
 
-          <h1 class="mt-5 mb-3">Drive More Sales</h1>
-          <p>
+          <h1 class="mt-sm-5 mb-sm-3 mt-3 text-sm-start text-center">
+            Drive More Sales
+          </h1>
+          <p class="text-center text-sm-start">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p><a href="#">Read More...</a></p>
@@ -448,7 +475,7 @@
             Why you should
             <span style="color: rgb(30, 116, 255)">Choose Us.</span>
           </h1>
-          <p>
+          <p class="text-center text-sm-start">
             It is a long established fact that a reader will be distracted by
             the readable content .It is a long established fact that a reader
             .It is a long established fact that a reader will be .
@@ -456,10 +483,10 @@
         </div>
       </div>
       <div
-        class="why-you-should-choose-us-container-cards mt-4 d-flex justify-content-center gap-5 row"
+        class="why-you-should-choose-us-container-cards mt-4 d-flex justify-content-center gap-sm-5 row"
       >
         <div
-          class="d-flex flex-column align-items-center col-10 offset-1 col-sm-2 offset-sm-0 mt-3 overflow-hidden"
+          class="d-flex flex-column align-items-center col-10 col-sm-2 offset-sm-0 mt-2 mt-sm-3 overflow-hidden"
         >
           <img src="./assets/images/see optimization.svg" alt="" />
           <h4 class="text-center mt-5 pt-4">See Optimization</h4>
@@ -471,7 +498,7 @@
         </div>
 
         <div
-          class="d-flex flex-column align-items-center col-10 offset-1 col-sm-2 offset-sm-0 mt-3 overflow-hidden"
+          class="d-flex flex-column align-items-center col-10 col-sm-2 offset-sm-0 mt-2 mt-sm-3 overflow-hidden"
         >
           <img src="./assets/images/keywords research.svg" alt="" />
           <h4 class="text-center mt-5 pt-4">Keyword Research</h4>
@@ -483,10 +510,10 @@
         </div>
 
         <div
-          class="d-flex flex-column align-items-center col-10 offset-1 col-sm-2 offset-sm-0 mt-3 mb-5 pb-5 overflow-hidden"
+          class="d-flex flex-column align-items-center col-10 col-sm-2 offset-sm-0 mt-2 mt-sm-3 mb-5 pb-5 overflow-hidden"
         >
           <img src="./assets/images/social marketting.svg" alt="" />
-          <h4 class="text-center">Social Marketting</h4>
+          <h4 class="text-center pt-5">Social Marketting</h4>
           <p class="text-center">
             It is a long established fact that a reader will be distracted by.It
             is a long established.
@@ -498,21 +525,21 @@
 
     <!-- YOU MAY ASK HERE  -->
 
-    <section class="you-make-ask-container container mt-5">
+    <section class="you-make-ask-container container mt-5" id="projects">
       <div class="row d-flex">
         <img
-          class="mt-3 col-12 col-sm-6"
+          class="mt-2 mt-sm-3 col-12 col-sm-6"
           src="./assets/images/you may ask.svg"
           alt=""
         />
         <div class="col-12 col-sm-6">
-          <h1 class="text-center mt-5 mb-3">
+          <h1 class="text-center text-sm-start mt-5 mb-3">
             You May Ask What
             <br />
             SEO & Why Do You
             <span style="color: rgb(0, 102, 255)">Need It?</span>
           </h1>
-          <p>
+          <p class="text-center text-sm-start">
             It is a long established fact that a reader will be distracted by
             the readable content .It is a long established fact that a reader.
             It is a long.
@@ -520,7 +547,7 @@
 
           <div class="you-make-ask-container-cards">
             <div
-              class="you-make-ask-cards mt-5 d-flex gap-3 justify-content-center"
+              class="you-make-ask-cards mt-5 d-flex gap-3 justify-content-center flex-column flex-sm-row align-items-center"
             >
               <div class="left">
                 <svg
@@ -555,9 +582,11 @@
                   />
                 </svg>
               </div>
-              <div class="right mt-2">
-                <h3>Social media marketing</h3>
-                <p>
+              <div class="right mt-sm-2">
+                <h3 class="text-center text-sm-start">
+                  Social media marketing
+                </h3>
+                <p class="text-center text-sm-start">
                   It is a long established fact that a reader will be distracted
                   by the.
                 </p>
@@ -565,7 +594,7 @@
             </div>
 
             <div
-              class="you-make-ask-cards mt-5 d-flex gap-3 justify-content-center"
+              class="you-make-ask-cards mt-5 d-flex gap-3 justify-content-center flex-column flex-sm-row align-items-center"
             >
               <div class="left">
                 <svg
@@ -594,9 +623,9 @@
                   />
                 </svg>
               </div>
-              <div class="right mt-2">
-                <h3>Email Marketting</h3>
-                <p>
+              <div class="right mt-sm-2">
+                <h3 class="text-center text-sm-start">Email Marketting</h3>
+                <p class="text-center text-sm-start">
                   It is a long established fact that a reader will be distracted
                   by the.
                 </p>
@@ -604,7 +633,7 @@
             </div>
 
             <div
-              class="you-make-ask-cards mt-5 d-flex gap-3 mb-5 justify-content-center"
+              class="you-make-ask-cards mt-5 d-flex gap-3 mb-5 justify-content-center flex-column flex-sm-row align-items-center"
             >
               <div class="left">
                 <svg
@@ -627,9 +656,9 @@
                   />
                 </svg>
               </div>
-              <div class="right mt-2">
-                <h3>SEO Optimization</h3>
-                <p>
+              <div class="right mt-sm-2">
+                <h3 class="text-center text-sm-start">SEO Optimization</h3>
+                <p class="text-center text-sm-start">
                   It is a long established fact that a reader will be distracted
                   by the.
                 </p>
@@ -642,10 +671,10 @@
 
     <!-- MILESTONE CONTAINER HERE  -->
 
-    <section class="container milesstone-container">
+    <section class="container milesstone-container mt-sm-5">
       <div class="row d-flex justify-content-center milesstone-container-flex">
         <div
-          class="col-2 offset-0 col-sm-12 offset-sm-0 d-flex justify-content-center flex-wrap gap-5 border p-5"
+          class="col-10 offset-0 col-sm-12 offset-sm-0 d-flex justify-content-center flex-wrap gap-sm-5 gap-4 border p-5"
         >
           <div>
             <h1>86</h1>
@@ -682,7 +711,7 @@
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-sm-6">
           <h2 style="font-size: 5rem; color: bisque" class="ms-5">.</h2>
-          <h1 class="mt-5">
+          <h1 class="mt-5 text-center">
             Check Your Website <span style="color: rgb(8, 86, 255)">Speed</span>
           </h1>
           <p class="mt-5 text-center">
@@ -691,7 +720,9 @@
             .It is a long.
           </p>
 
-          <div class="d-flex justify-content-center gap-2 flex-wrap">
+          <div
+            class="d-flex justify-content-center gap-2 flex-wrap flex-column flex-sm-row align-items-center"
+          >
             <input
               class="check-your-website-speed-container-input check-your-website-speed-container-input-left"
               type="text"
@@ -724,7 +755,7 @@
 
     <!-- OUR PLANS HERE  -->
 
-    <section class="container-fluid mt-5 p-5 our-plans-container">
+    <section class="container-fluid mt-5 p-5 our-plans-container" id="pricing">
       <div class="row">
         <div class="col-12">
           <h1 class="text-center">Our Plans</h1>
@@ -735,7 +766,7 @@
         class="row d-flex our-plans-container-plans justify-content-center gap-5"
       >
         <div
-          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-10 offset-1 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
+          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-12 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
         >
           <h6 style="color: blue">Plus</h6>
           <div class="d-flex">
@@ -751,7 +782,7 @@
         </div>
 
         <div
-          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-10 offset-1 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
+          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-12 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
         >
           <h6 style="color: blue">Beginner</h6>
           <div class="d-flex">
@@ -767,7 +798,7 @@
         </div>
 
         <div
-          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-10 offset-1 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
+          class="our-plans-container-plans-cards d-flex flex-column align-items-center gap-3 mt-5 col-12 col-sm-3 offset-sm-0 col-md-3 offset-md-0"
         >
           <h6 style="color: blue">Advanced</h6>
           <div class="d-flex">
@@ -793,7 +824,7 @@
             Our Expert Team
             <span style="color: rgb(31, 102, 255)">Members</span>
           </h1>
-          <p class="mt-3 text-center">
+          <p class="mt-sm-2 mt-sm-3 text-center">
             It is a long established fact that a reader will be distracted by
             the readable content .It is a long established fact that a reader.
           </p>
@@ -803,7 +834,7 @@
         class="row our-expert-team-members-cards-container d-flex justify-content-center"
       >
         <div
-          class="member-profiles d-flex flex-column align-items-center gap-2 mt-5 col-10 offset-1 col-sm-2 offset-sm-0"
+          class="member-profiles d-flex flex-column align-items-center gap-2 mt-1 mt-sm-5 col-10 offset-1 col-sm-2 offset-sm-0"
         >
           <img src="./assets/images/Ellipse 403.svg" alt="" />
           <h4>Muriel Whee</h4>
@@ -821,7 +852,7 @@
         </div>
 
         <div
-          class="member-profiles d-flex flex-column align-items-center gap-2 mt-5 col-10 offset-1 col-sm-2 offset-sm-0"
+          class="member-profiles d-flex flex-column align-items-center gap-2 mt-1 mt-sm-5 col-10 offset-1 col-sm-2 offset-sm-0"
         >
           <img src="./assets/images/Ellipse 404.svg" alt="" />
           <h4>John Doe</h4>
@@ -839,7 +870,7 @@
         </div>
 
         <div
-          class="member-profiles d-flex flex-column align-items-center gap-2 mt-5 col-10 offset-1 col-sm-2 offset-sm-0"
+          class="member-profiles d-flex flex-column align-items-center gap-2 mt-1 mt-sm-5 col-10 offset-1 col-sm-2 offset-sm-0"
         >
           <img src="./assets/images/Ellipse 405.svg" alt="" />
           <h4>Clay Porter</h4>
@@ -857,7 +888,7 @@
         </div>
 
         <div
-          class="member-profiles d-flex flex-column align-items-center gap-2 mt-5 col-10 offset-1 col-sm-2 offset-sm-0"
+          class="member-profiles d-flex flex-column align-items-center gap-2 mt-1 mt-sm-5 col-10 offset-1 col-sm-2 offset-sm-0"
         >
           <img src="./assets/images/Ellipse 406.svg" alt="" />
           <h4>Doug Norm</h4>
@@ -882,7 +913,7 @@
 
     <!-- CLIENT REVIEWS HERE -->
 
-    <section class="container client-review-container mt-5">
+    <!-- <section class="container client-review-container mt-5">
       <div class="row">
         <h1 class="text-center">Our Client's Say</h1>
         <p class="text-center">
@@ -922,11 +953,54 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <!-- CLIENT REVIEWS (SWIPPER) HERE -->
+    <section class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="d-flex flex-column align-items-center mt-5 swiper-slide">
+          <p class="text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content .It is a long established fact that a reader
+          </p>
+          <img src="./assets/images/Ellipse 403.svg" alt="" />
+          <p>Clay Porter</p>
+          <p>Ship Builder</p>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-5 swiper-slide">
+          <p class="text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content .It is a long established fact that a reader
+          </p>
+          <img src="./assets/images/Ellipse 403.svg" alt="" />
+          <p>Clay Porter</p>
+          <p>Ship Builder</p>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-5 swiper-slide">
+          <p class="text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content .It is a long established fact that a reader
+          </p>
+          <img src="./assets/images/Ellipse 403.svg" alt="" />
+          <p>Clay Porter</p>
+          <p>Ship Builder</p>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-5 swiper-slide">
+          <p class="text-center">
+            It is a long established fact that a reader will be distracted by
+            the readable content .It is a long established fact that a reader
+          </p>
+          <img src="./assets/images/Ellipse 403.svg" alt="" />
+          <p>Clay Porter</p>
+          <p>Ship Builder</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </section>
 
     <!-- SUBSCRIBE AREA HERE -->
 
-    <section class="container subscribe mt-5 mb-5 pt-5 pb-5">
+    <section class="container subscribe mt-5 mb-5 pt-5 pb-5" id="contact">
       <div class="row">
         <div>
           <h1 class="text-center">Subscribe & find the perfect Cosmetics</h1>
@@ -937,7 +1011,7 @@
       </div>
       <div class="row">
         <div
-          class="d-flex justify-content-center gap-3 col-8 offset-2 flex-wrap"
+          class="d-flex justify-content-center gap-3 col-8 offset-2 flex-wrap flex-sm-row flex-column align-items-center"
         >
           <input
             type="text"
@@ -989,6 +1063,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <script src="./js/main.js"></script>
   </body>
 </html>

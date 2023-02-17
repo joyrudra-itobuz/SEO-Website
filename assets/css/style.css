@@ -3,19 +3,50 @@
 
 * {
   font-family: "Poppins", sans-serif;
-
   font-weight: 500;
 }
 
+img {
+  max-width: 90%;
+}
+
 /* NAV section */
-nav div ul li:hover {
-  border-bottom: 4px solid blue;
+
+.navbar-item {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.navbar-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #2a37f5;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /* HERO SECTION  */
+.hero {
+  background-image: url("../images/HERO\ BG.svg");
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .hero-heading {
   font: "Inter", sans-serif;
   font-weight: 700;
-  background-image: url("../images/Ellipse\ 21.svg");
+
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
@@ -29,20 +60,11 @@ nav div ul li:hover {
 .hero .hero-women {
   position: relative;
 }
-.hero-women .facebook {
-  position: absolute;
-  top: 32px;
-  left: 32px;
-}
-.hero-women .instagram {
-  position: absolute;
-  top: 90px;
-  left: 200px;
-}
-.hero-women .twitter {
-  position: absolute;
-  top: 200px;
-  left: 32px;
+.get-started-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .green-youtube-button {
   border: none;
@@ -114,7 +136,6 @@ nav div ul li:hover {
   background-position: 60%;
 }
 .procedure-container .procedure:hover {
-  border-bottom: 5px solid blue;
   background-color: white;
 
   box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.09);
@@ -140,8 +161,14 @@ nav div ul li:hover {
 }
 
 /* WHAT CAN YOU EXPECT HERE  */
+@media (min-width: 540px) {
+  .what-can-you-expect-container .col-10 {
+    padding: 2rem;
+  }
+}
 .what-can-you-expect-container .col-10 {
-  padding: 2rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
 }
 .what-can-you-expect-container .col-10 p {
   font-weight: 200;
@@ -257,8 +284,8 @@ nav div ul li:hover {
   color: white;
   background-size: cover;
   border-radius: 10px;
-  transition: 700ms;
-  box-shadow: 0px 26px 42px rgba(2, 22, 5, 0.08);
+  transition-timing-function: ease-out;
+  transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
   border-radius: 4px;
 }
 .our-plans-container-plans sup {
@@ -296,6 +323,45 @@ nav div ul li:hover {
 .client-review-container-cards .flex-column {
   background-image: url("../images/“.svg");
   background-repeat: no-repeat;
+}
+
+/* CAROUSEL */
+.swiper-slide p {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.swiper-slide {
+  max-width: 30%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 540px) {
+  .swiper-slide {
+    max-width: 80%;
+  }
+  .swiper-slide img {
+    max-width: 40%;
+  }
+}
+
+.swiper-slide p:first-child {
+  font-weight: 200;
+  background-image: url("../images/“.svg");
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+
+.swiper-slide img {
+  max-width: 20%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* SUBSCRIBE  */
@@ -338,3 +404,12 @@ footer .justify-content-between {
   margin-top: 1rem;
   font-size: 10px;
 }
+
+/* MEDIA QUERRY */
+
+/* @media (min-width: 540px) {
+  h2 {
+    font-size: 1.625rem;
+    line-height: 0.5rem;
+  }
+} */
