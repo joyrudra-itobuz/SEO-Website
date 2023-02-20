@@ -135,7 +135,7 @@ img {
   display: none;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 992px) {
   .our-creative-team {
     display: block;
     position: relative;
@@ -402,6 +402,9 @@ img {
   transition-timing-function: ease-out;
   transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
   border-radius: 4px;
+}
+.our-plans-container-plans-cards:hover .btn-outline-warning {
+  background-color: yellow;
 }
 .our-plans-container-plans sup {
   font-weight: 200;
