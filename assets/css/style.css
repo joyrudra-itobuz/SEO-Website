@@ -442,12 +442,13 @@ img {
 
 /* CAROUSEL */
 .swiper {
+  padding-bottom: 3rem;
   /* max-width: 100%; */
 }
 
 .swiper-slide {
   padding: 2rem;
-  max-width: 50%;
+  max-width: 40%;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -455,6 +456,14 @@ img {
   justify-content: center;
   align-items: center;
   border: 1px solid rgb(205, 204, 204);
+  /* border-radius: 1rem; */
+}
+
+.swiper-slide:hover {
+  transition: all 1s;
+
+  border: none;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
 .swiper-slide img {
@@ -465,10 +474,10 @@ img {
 
 @media (min-width: 768px) {
   .swiper-slide {
-    max-width: 80%;
+    max-width: 60%;
   }
   .swiper-slide img {
-    max-width: 40%;
+    max-width: 50%;
   }
 }
 
