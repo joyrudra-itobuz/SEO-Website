@@ -116,7 +116,7 @@ img {
   background: transparent;
 }
 .hero-women {
-  background-image: url("../images/hero-women-background.png");
+  background-image: url("../images/hero/hero-women-background.png");
   background-position: 40%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -460,7 +460,7 @@ img {
   object-fit: cover;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 768px) {
   .swiper-slide {
     max-width: 80%;
   }
