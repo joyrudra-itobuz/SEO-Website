@@ -31,6 +31,7 @@ h2 {
 .navbar {
   background-color: white;
 }
+
 .navbar > a {
   font-size: 28px;
 }
@@ -43,7 +44,7 @@ h2 {
   font-size: 30px;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 1200px) {
   .navbar > a {
     font-size: 30px;
   }
@@ -85,13 +86,14 @@ h2 {
 }
 /* HERO SECTION  */
 .hero {
+  max-width: 90%;
   background-image: url("../images/HERO\ BG.svg");
   background-position-x: left;
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
 }
-@media (min-width: 740px) {
+@media (min-width: 768px) {
   .hero-heading {
     font-size: 60px;
     font: "Inter", sans-serif;
@@ -109,7 +111,7 @@ h2 {
   font-weight: 200;
 }
 .hero .hero-women {
-  position: relative;
+  max-width: 80%;
 }
 .get-started-btn {
   display: flex;
@@ -455,7 +457,7 @@ h2 {
 
 /* CAROUSEL */
 .swiper {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .swiper-slide {
