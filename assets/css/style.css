@@ -19,14 +19,6 @@ img {
   max-width: 90%;
 }
 
-/* h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 20px;
-} */
-
 /* NAV section */
 .navbar {
   background-color: white;
@@ -262,16 +254,6 @@ h2 {
 }
 
 /* PERCEFT SOLUTION  */
-
-/* .perfect-solution {
-  margin-top: 1rem;
-}
-
-@media (min-width: 740px) {
-  .perfect-solution {
-    margin-top: 200px;
-  }
-} */
 
 .perfect-solution .left-block p {
   font-weight: 200;
@@ -543,10 +525,3 @@ footer .justify-content-between {
 }
 
 /* MEDIA QUERRY */
-
-/* @media (min-width: 540px) {
-  h2 {
-    font-size: 1.625rem;
-    line-height: 0.5rem;
-  }
-} */
