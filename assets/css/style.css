@@ -76,7 +76,9 @@ img {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 /* HERO SECTION  */
+
 .hero {
   max-width: 90%;
   background-image: url("../images/HERO\ BG.svg");
@@ -102,8 +104,14 @@ img {
 .hero-description {
   font-weight: 200;
 }
-.hero .hero-women {
-  max-width: 80%;
+.her .hero-women {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-women {
+    max-width: 40%;
+  }
 }
 .get-started-btn {
   display: flex;
@@ -201,12 +209,6 @@ img {
 }
 
 /* OUR PROCEDURE */
-
-/* @media (min-width: 700px) {
-  .optimizing-your-website {
-    margin-top: 170px;
-  }
-} */
 
 .procedure-container {
   background-image: url("../images/Ellipse 28.svg");
