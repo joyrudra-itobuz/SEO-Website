@@ -343,19 +343,24 @@ img {
 }
 
 /* CAROUSEL */
-.swiper-slide p {
-  font-weight: 200;
-  font-size: 1rem;
+.swiper {
+  max-width: 100%;
 }
 
 .swiper-slide {
-  max-width: 30%;
+  max-width: 70%;
   text-align: center;
   font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 70%;
+  object-fit: cover;
 }
 
 @media (min-width: 540px) {
@@ -367,7 +372,7 @@ img {
   }
 }
 
-.swiper-slide p:first-child {
+.swiper-slide p {
   font-weight: 200;
   background-image: url("../images/“.svg");
   background-size: contain;
