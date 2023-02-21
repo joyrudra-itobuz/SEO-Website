@@ -356,8 +356,8 @@ img {
   color: #666565;
   font-weight: 400;
 }
-.milesstone-container .row div h2 {
-  padding-bottom: 2rem;
+.milesstone-container-flex h2 {
+  font-size: 3rem;
 }
 .milesstone-container .row div h1 {
   font-weight: 600;
