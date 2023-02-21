@@ -29,7 +29,7 @@ img {
 }
 
 .navbar li {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar-brand {
@@ -66,12 +66,12 @@ img {
   }
 
   .navbar li {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
   }
 
   .navbar ul {
-    padding-left: 10rem;
+    padding-left: 5rem;
   }
   .navbar-brand {
     font-size: 40px;
@@ -177,7 +177,7 @@ img {
 
 @media (min-width: 768px) {
   .hero .btn-warning {
-    padding: 20px 40px;
+    padding: 15px 30px;
   }
 }
 
