@@ -36,24 +36,6 @@ img {
   font-size: 30px;
 }
 
-@media (min-width: 1200px) {
-  .navbar > a {
-    font-size: 30px;
-  }
-
-  .navbar li {
-    font-size: 20px;
-    font-weight: 300;
-  }
-
-  .navbar ul {
-    padding-left: 10rem;
-  }
-  .navbar-brand {
-    font-size: 40px;
-  }
-}
-
 .navbar-item {
   display: inline-block;
   position: relative;
@@ -76,6 +58,24 @@ img {
 .navbar-item:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media (min-width: 1200px) {
+  .navbar > a {
+    font-size: 30px;
+  }
+
+  .navbar li {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .navbar ul {
+    padding-left: 10rem;
+  }
+  .navbar-brand {
+    font-size: 40px;
+  }
 }
 
 /* HERO SECTION  */
@@ -109,11 +109,6 @@ img {
   max-width: 100%;
 }
 
-@media (min-width: 768px) {
-  .hero .hero-women {
-    max-width: 40%;
-  }
-}
 .get-started-btn {
   display: flex;
   flex-direction: column;
@@ -133,6 +128,12 @@ img {
 
 .our-creative-team {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-women {
+    max-width: 40%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -174,19 +175,13 @@ img {
   }
 }
 
-@media (min-width: 740px) {
+@media (min-width: 768px) {
   .hero .btn-warning {
     padding: 20px 40px;
   }
 }
 
 /* SERVICE CARDS section */
-@media (min-width: 740px) {
-  .service-cards-container {
-    margin-top: 170px;
-    margin-bottom: 170px;
-  }
-}
 
 .social-media-management h2 {
   padding-top: 1rem;
@@ -209,7 +204,14 @@ img {
   width: 40%;
 }
 
-/* OUR PROCEDURE */
+@media (min-width: 768px) {
+  .service-cards-container {
+    margin-top: 170px;
+    margin-bottom: 170px;
+  }
+}
+
+/* Optimizing youe Website*/
 
 .procedure-container {
   background-image: url("../images/Ellipse 28.svg");
@@ -256,6 +258,12 @@ img {
   transition: 400ms;
 }
 
+@media (min-width: 768px) {
+  .optimizing-your-website h2 {
+    font-size: 40px;
+  }
+}
+
 /* PERCEFT SOLUTION  */
 
 .perfect-solution .left-block p {
@@ -276,11 +284,14 @@ img {
 }
 
 /* WHAT CAN YOU EXPECT HERE  */
-@media (min-width: 540px) {
-  .what-can-you-expect-container .col-10 {
-    padding: 2rem;
-  }
+.what-can-you-expect-container h2 {
+  font-size: 20px;
 }
+
+.what-can-you-expect-container a {
+  text-decoration: none;
+}
+
 .what-can-you-expect-container .col-10 {
   padding: 1rem;
   border-radius: 0.2rem;
@@ -295,10 +306,17 @@ img {
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 
+@media (min-width: 540px) {
+  .what-can-you-expect-container .col-10 {
+    padding: 2rem;
+  }
+}
+
 /* WHY SHOULD YOU CHOOSE US  */
 .why-you-should-choose-us-container {
   background-color: #fafafa;
 }
+
 .why-you-should-choose-us-container p {
   font-weight: 200;
 }
@@ -309,6 +327,12 @@ img {
 .why-you-should-choose-us-container-cards .col-10:hover {
   transition: 500ms;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+
+@media (min-width: 768px) {
+  .why-you-should-choose-us-container {
+    padding: 70px 0px;
+  }
 }
 
 /* YOU MAY ASK  */
@@ -403,8 +427,18 @@ img {
   transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
   border-radius: 4px;
 }
-.our-plans-container-plans-cards:hover .btn-outline-warning {
-  background-color: yellow;
+
+.our-plans-button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid black;
+}
+
+.our-plans-container-plans-cards:hover .our-plans-button {
+  background-color: #fad725;
+  border: 1px solid #fad725;
 }
 .our-plans-container-plans sup {
   font-weight: 200;
@@ -475,15 +509,6 @@ img {
   object-fit: cover;
 }
 
-@media (min-width: 768px) {
-  .swiper-slide {
-    max-width: 60%;
-  }
-  .swiper-slide img {
-    max-width: 50%;
-  }
-}
-
 .swiper-slide p {
   font-weight: 200;
   background-image: url("../images/“.svg");
@@ -496,6 +521,15 @@ img {
   max-width: 20%;
   height: auto;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .swiper-slide {
+    max-width: 60%;
+  }
+  .swiper-slide img {
+    max-width: 50%;
+  }
 }
 
 /* SUBSCRIBE  */
